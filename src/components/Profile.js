@@ -4,6 +4,7 @@ import { useAuth } from "../context/AuthContext";
 import { Link, useNavigate } from "react-router-dom";
 import HamburgerMeun from "./HamburgerMenu";
 import BMI from "./BMI";
+import Footer from './Footer';
 
 export default function Profile() {
   const [error, setError] = useState("");
@@ -47,6 +48,7 @@ export default function Profile() {
         </Button>
       </div> */}
     <BMI/>
+    <Footer/>
     </>
   );
 }
