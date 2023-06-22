@@ -1,0 +1,9 @@
+.logo-icon-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-icon {
+    width: 30px; /* Adjust the width and height as needed */
+    height: 30px;
+  }

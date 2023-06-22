@@ -1,0 +1,49 @@
+
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* header{
+  width: 100%;
+  height: 50px;
+  background-color: aquamarine;
+} */
+.navbar {
+    background-color: #333;
+    height: 50px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 50px;
+    padding: 0 10px;
+  }
+  
+  .nav-links li a:hover {
+    background-color: #555;
+  }
+  .titel{
+   display: flex;
+   flex-direction: row;
+
+  }
+  .titel image{
+    background-image:url(../image/fitfood.webp) ;
+    height: 100px;
+    width: 100px;
+  }

@@ -1,25 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Container } from "react-bootstrap";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import AuthProvider from "./context/AuthContext";
+import RequireAuth from "./context/RequireAuth";
+import Dashboard from "./components/Dachboard";
+import Login from "./components/Login";
 
-function App() {
+import Signup from "./components/Signup";
+import ForgotPassword from "./components/ForgotPassword";
+import UpdateProfile from "./components/UpdateProfile";
+import Profile from "./components/Profile";
+import Recipes from "./components/Recipes";
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container
+      className="d-flex"
+      
+    >
+      <div className="w-100">
+        <Router>
+          <AuthProvider>
+            <Routes>
+              <Route
+                path="/"
+                element={
+                  <RequireAuth>
+                    <Dashboard />
+                  </RequireAuth>
+                }
+              />
+              <Route path="/update-profile" element={<UpdateProfile />} />
+              <Route path="/signup" element={<Signup />} />
+              <Route path="/login" element={<Login />} />
+              
+              <Route path="/Profile" element={<Profile />} />
+              <Route path="Recipes" element={<Recipes/>} />
+              <Route path="/forgot-password" element={<ForgotPassword />} />
+            </Routes>
+          </AuthProvider>
+        </Router>
+      </div>
+    </Container>
   );
-}
+};
 
 export default App;
