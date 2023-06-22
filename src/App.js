@@ -11,17 +11,21 @@ import ForgotPassword from "./components/ForgotPassword";
 import UpdateProfile from "./components/UpdateProfile";
 import Profile from "./components/Profile";
 import Recipes from "./components/Recipes";
+import LandingPage from "./components/LandingPage";
+
 const App = () => {
   return (
     <Container
       className="d-flex"
-      
+
     >
       <div className="w-100">
         <Router>
           <AuthProvider>
             <Routes>
+              {/* <Route path="/" element={<LandingPage />} /> */}
               <Route
+
                 path="/"
                 element={
                   <RequireAuth>
@@ -29,12 +33,18 @@ const App = () => {
                   </RequireAuth>
                 }
               />
-              <Route path="/update-profile" element={<UpdateProfile />} />
+              <Route
+               path="/update-profile"
+                element={
+                  <RequireAuth>
+                  <Profile />
+                </RequireAuth>} />
+
               <Route path="/signup" element={<Signup />} />
               <Route path="/login" element={<Login />} />
-              
+
               <Route path="/Profile" element={<Profile />} />
-              <Route path="Recipes" element={<Recipes/>} />
+              <Route path="/Recipes" element={<Recipes />} />
               <Route path="/forgot-password" element={<ForgotPassword />} />
             </Routes>
           </AuthProvider>

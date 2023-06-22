@@ -30,7 +30,7 @@ function BasicExample() {
       <div className="logo-icon-container">
       <img src={logo} alt="Logo" className="logo-icon" />
       </div>
-        <Navbar.Brand href="#home">Home</Navbar.Brand>
+    
        
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -38,18 +38,22 @@ function BasicExample() {
           <Nav className="me-auto">
             <Nav.Link href="/Profile">Profile</Nav.Link>
             <Nav.Link href="/Recipes">Recipes</Nav.Link>
+            <Nav.Link href="./update-profile">Update Profile</Nav.Link>
+            <Nav.Link onClick={handleLogout} >Logout</Nav.Link>
+
+{/* 
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="./update-profile">Update Profile</NavDropdown.Item>
               <NavDropdown.Item onClick={handleLogout}  >
-               Logout
-                 </NavDropdown.Item>
+              Logout
+                 </NavDropdown.Item> */}
               {/* <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
                 Separated link
               </NavDropdown.Item> */}
-            </NavDropdown>
-          </Nav>
+            {/* {/* </NavDropdown> */}
+          </Nav> 
         </Navbar.Collapse>
       </Container>
     </Navbar>
