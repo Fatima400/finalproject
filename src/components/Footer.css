@@ -1,13 +1,23 @@
+
+:root {
+  --primary-color: #749F82;
+  --secondary-color: #A8E890;
+  --dunkelcolor: #425F57;
+  --leightcolor: #CFFF8D;
+}
+
+
+
 .section_padding{
 
       padding: 4rem 4rem;
     }
 
-
     .footer{
-    background-color: #2d2d32;
+    background-color: var(--dunkelcolor);
     height: 333px;
     margin-top: 2rem;
+    
 
 
     }
@@ -37,7 +47,7 @@
       color:white;
     }
     a {
-      color:rgb(175, 175, 179);
+      color:var(--primary-color);
       text-decoration: none;
 
 

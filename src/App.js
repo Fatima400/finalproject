@@ -23,10 +23,10 @@ const App = () => {
         <Router>
           <AuthProvider>
             <Routes>
-              {/* <Route path="/" element={<LandingPage />} /> */}
+              <Route path="/" element={<LandingPage />} />
               <Route
 
-                path="/"
+                path="/dachboard"
                 element={
                   <RequireAuth>
                     <Dashboard />
@@ -37,7 +37,7 @@ const App = () => {
                path="/update-profile"
                 element={
                   <RequireAuth>
-                  <Profile />
+                  <UpdateProfile/>
                 </RequireAuth>} />
 
               <Route path="/signup" element={<Signup />} />

@@ -1,11 +1,10 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import React, { useState } from "react";
 import { useAuth } from "../context/AuthContext";
 import {  useNavigate } from "react-router-dom";
-import logo from '../image/logo-no-background.png'
+import Logo from '../image/Logo.png';
 import './HamburgerMenu.css';
 function BasicExample() {
 
@@ -28,7 +27,7 @@ function BasicExample() {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
       <div className="logo-icon-container">
-      <img src={logo} alt="Logo" className="logo-icon" />
+      <img src={Logo} alt="Logo" className="logo-icon" />
       </div>
     
        
@@ -38,7 +37,7 @@ function BasicExample() {
           <Nav className="me-auto">
             <Nav.Link href="/Profile">Profile</Nav.Link>
             <Nav.Link href="/Recipes">Recipes</Nav.Link>
-            <Nav.Link href="./update-profile">Update Profile</Nav.Link>
+            <Nav.Link href="/UploadProfile">Update Profile</Nav.Link>
             <Nav.Link onClick={handleLogout} >Logout</Nav.Link>
 
 {/* 
@@ -61,3 +60,4 @@ function BasicExample() {
 }
 
 export default BasicExample;
+

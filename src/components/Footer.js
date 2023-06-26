@@ -42,7 +42,7 @@ const Footer = () => {
       <hr></hr>
       <div className="sb_footer_below">
         <div className="sb_footer_copyright">
-          <p>@{new Date().getFullYear()} Nourhan copyright reserved.</p>
+          <p>@{new Date().getFullYear()} Fatima copyright reserved.</p>
         </div>
         <div className="sb_footer_below_links">
           <a href="/terms">

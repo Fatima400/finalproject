@@ -1,3 +1,11 @@
+
+:root {
+  --primary-color: #9DC08B;
+  --secondary-color: #609966;
+  --dunkelcolor: #40513B;
+  --leightcolor:#EDF1D6;
+}
+
 .input {
     width: 100%;
     max-width: 220px;

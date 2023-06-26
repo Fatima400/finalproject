@@ -48,6 +48,8 @@ export default function Profile() {
         </Button>
       </div> */}
     <BMI/>
+
+    
     <Footer/>
     </>
   );

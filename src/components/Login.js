@@ -19,7 +19,7 @@ export default function Login() {
       setError("");
       setLoading(true);
       await login(emailRef.current.value, passwordRef.current.value);
-      navigate(redirectPath);
+      navigate("/dachboard"); // weiter leitung nach erfolgreiche login auf nachste Seite//
     } catch {
       setError("Failed to log in");
     }

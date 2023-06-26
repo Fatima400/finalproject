@@ -1,3 +1,15 @@
+
+:root {
+  --primary-color: #749F82;
+  --secondary-color: #A8E890;
+  --dunkelcolor: #425F57;
+  --leightcolor: #CFFF8D;
+}
+
+
+
+
+
 .logo-icon-container {
     display: flex;
     align-items: center;
@@ -7,3 +19,7 @@
     width: 30px; /* Adjust the width and height as needed */
     height: 30px;
   }
+  .navbar-full-width {
+    width: 100%;
+  }
+  

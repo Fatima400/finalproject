@@ -1,0 +1,203 @@
+body {
+    font-family: 'DM Serif Display', serif;
+
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+
+}
+
+:root {
+    --primary-color: #749F82;
+    --secondary-color: #A8E890;
+    --dunkelcolor: #425F57;
+    --leightcolor: #CFFF8D;
+}
+
+
+
+ .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+
+}
+
+.nav-logo img {
+    height: 100px;
+    margin-left: 20px;
+    width: 100px;
+    
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    font-size: 40px;
+    gap: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: var(--primary-color);
+  
+} 
+.nav-links li{
+    color: #000;
+    font-size: 20px;
+}
+
+.logoname{
+    height: 80px;
+    width: 200px;
+}
+
+
+.mot {
+    height: 75px;
+    width: 300px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.but {
+    padding: 10px 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+button:active {
+    transform: translateY(-1px);
+}
+
+.socialmedia img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+
+.continer {
+
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+ .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:200px;
+    
+ }
+.maslo{
+    height: 400px;
+    width: 400px;
+}
+.two{
+    margin-top:100px ;
+    
+}
+
+.wave {
+    background-image: url(../image/wavewihte.svg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    margin-top: -113px;
+    z-index: 2;
+    position: relative;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 190px;
+   height: 200px;
+    border-radius: 30px;
+    background: #FFFFFF;
+    box-shadow: 15px 15px 30px #bebebe,
+        -15px -15px 30px #ffffff;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+
+    margin-top: 50px;
+    margin-bottom:50px ;
+
+    padding: 50px;
+}
+
+.photo {
+    width: 70px;
+    height: 70px;
+}
+.two h1{
+   text-align: center;
+
+}
+.three{
+    min-height: 500px;
+}
+.three h1{
+    text-align: center;
+    margin-top: 50px;
+   
+ }
+ .kards{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+    gap:50px
+ }
+ .foto{
+    height: 100px;
+    width: 100px;
+ }
