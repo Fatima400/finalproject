@@ -15,23 +15,27 @@ export default function Dashboard() {
   
   return (
     <>
+     <HamburgerMenu />
+    <div className="bod">
 {/*      
       <Navbar/> */}
-      <HamburgerMenu className=""/><br/>
+     
       {/* <Datum /> */}
       <br/>
       <br/>
       <br/>
       <br/>
-      <div  className="titel">
+      <div  className="body">
 
-      <p>Discover FitFood, your go-to destination for healthy nutrition and wellness. We provide a wide range of resources, including a vast recipe database, to support your journey towards optimal health. Calculate your BMI and BMR using our advanced tools to understand your body's composition and metabolic needs. Join us today and embrace a nourished, balanced lifestyle.</p>
+      <p className="text">Discover FitFood, your go-to destination for healthy nutrition and wellness. We provide a wide range of resources, including a vast recipe database, to support your journey towards optimal health. Calculate your BMI and BMR using our advanced tools to understand your body's composition and metabolic needs. Join us today and embrace a nourished, balanced lifestyle.</p>
       <image></image>
       </div>
      
 
       {/* <BMI/> */}
-      <Footer/>
+      
+    </div>
+    <Footer/>
     </>
   );
 }

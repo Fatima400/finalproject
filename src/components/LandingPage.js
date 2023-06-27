@@ -12,6 +12,9 @@ import Logoname from '../image/Logoname.png';
 import dietplanning from '../image/diet-planning.svg';
 import maslo from '../image/maslo.jpg';
 import Frame from '../image/Frame.svg';
+import bmi from '../image/bmi.jpg';
+import nutritionist_4 from '../image/nutritionist_4.jpg'
+import healthylife from '../image/healthylife.jpg'
 import Footer from './Footer';
 
 
@@ -25,7 +28,7 @@ const LandingPage = () => {
           <img src={Logo} alt="Logo" className="logoname" />
         </div>
         <ul className="nav-links">
-          <li className="nav-link" id="howitwork">How it work</li>
+          <li className="nav-link" >How it work</li>
           <li className="nav-link">Service</li>
           <li className="nav-link">About</li>
         </ul>
@@ -84,45 +87,41 @@ const LandingPage = () => {
 
       <section className='two'>
 
-        <h1>How it work</h1>
-        <div className='cards'>
+        <h1 >Service</h1>
+        
+        <div className='cards' >
 
 
-          < div class="card ">
-
-
-
-            <img className=" photo" src={dietplanning} alt="dietplanning" />
-            <p>wpeogegmkjtnbhtr</p>
+          <div class="card "><img className=" photo" src={dietplanning} alt="dietplanning" />
+            <p>Healthy recipes with calorie info</p>
           </div>
 
-          <div class="card "><img className=" photo" src={maslo} alt="maslo" />
-            <p>wpeogegmkjtnbhtr</p>
+          <div class="card "><img className=" photo" src={bmi} alt="maslo" />
+            <p>Calculate BMI, track your health</p>
           </div>
 
-          <div class="card "><img className=" photo" src={Frame} alt="Frame" />
-            <p>wpeogegmkjtnbhtr</p>
+          <div class="card "><img className=" photo" src={nutritionist_4} alt="Frame" />
+            <p>Estimate BMR, manage calorie intake</p>
           </div>
         </div>
 
       </section>
       <section className='three'>
-        <h1> Service</h1>
+        <h1> How it work</h1>
 
         <div className='kards'>
+          
           <div class="kard ">
-            <img className=" foto" src={Frame} alt="Frame" />
-            <p>uzrkueujk76kl897</p>
+            <img className=" fotoo" src={healthylife} alt="Frame" />
+         
           </div>
-          <div class="kard ">
-            <img className=" foto" src={Frame} alt="Frame" />
-            <p>dcfdrgregvtewghr6</p>
+          <div class="kardp ">
+            <p>The website helps users lead a healthier life by calculating BMI and BMR while providing a collection of healthy recipes. Users can calculate their BMI to understand their weight status and estimate their BMR to determine daily caloric needs. They can also explore and choose from a variety of nutritious recipes with detailed nutritional information. The website aims to empower users to make informed choices for improved health and wellness.</p>
           </div>
-          <div class="kard ">
-            <img className=" foto" src={Frame} alt="Frame" />
-            <p>uzju6ki7tzukjtrz</p>
+         
+       
           </div>
-        </div>
+        
       </section>
 
 

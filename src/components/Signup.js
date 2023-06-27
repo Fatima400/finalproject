@@ -1,8 +1,9 @@
-import { React, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import { useAuth } from "../context/AuthContext";
-import { Form, Button, Card, Alert } from "react-bootstrap";
-
 import { Link, useNavigate } from "react-router-dom";
+import './Signup.css'
+
+import Logo from '../image/Logo.png';
 
 export default function Signup() {
   const emailRef = useRef();
@@ -31,43 +32,45 @@ export default function Signup() {
 
   return (
     <>
-      <Card>
-        <Card.Body>
-          <h2 className="up">Sign Up</h2>
-          {error && <Alert variant="danger">{error}</Alert>}
-          <Form onSubmit={handleSubmit}>
-            <Form.Group>
-              <Form.Label htmlFor="email">Email</Form.Label>
-              <Form.Control id="email" type="email" ref={emailRef} required />
-            </Form.Group>
-            <Form.Group>
-              <Form.Label htmlFor="password">Password</Form.Label>
-              <Form.Control
-                id="password"
-                type="password"
-                ref={passwordRef}
-                required
-              />
-            </Form.Group>
-            <Form.Group>
-              <Form.Label htmlFor="password-confirm">
-                Password Confirmation
-              </Form.Label>
-              <Form.Control
-                id="password-confirm"
-                type="password"
-                ref={passwordConfirmRef}
-                required
-              />
-            </Form.Group>
-            <Button disabled={loading} className="sub" type="submit">
-              Sign Up
-            </Button>
-          </Form>
-        </Card.Body>
-      </Card>
+     <div className="lcard">
+        <div className="card-body">
+      <div className="nav-log">
+          <img src={Logo} alt="Logo" className="logoname" />
+        </div>
+        <h2 className="heading">Sign Up</h2>
+        {error && <div className="alert-danger">{error}</div>}
+        <form onSubmit={handleSubmit}>
+          <div className="form-group">
+            <label htmlFor="email">Email</label>
+            <input className="inputContainer" id="email" type="email" ref={emailRef} required />
+          </div>
+          <div className="form-group">
+            <label htmlFor="password">Password</label>
+            <input className="passs"
+              id="password"
+              type="password"
+              ref={passwordRef}
+              required
+            />
+          </div>
+          <div>
+            <label htmlFor="password-confirm">Password Confirmation</label>
+            <input
+              id="password-confirm"
+              type="password"
+              ref={passwordConfirmRef}
+              required
+              className="passs"
+            />
+          </div>
+          <button disabled={loading} type="submit">
+            Sign Up
+          </button>
+        </form>
+      </div>
       <div className="log">
         Already have an account? <Link to="/login">Log In</Link>
+      </div>
       </div>
     </>
   );

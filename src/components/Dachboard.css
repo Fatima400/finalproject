@@ -29,7 +29,7 @@ body {
 } */
 .navbar {
     background-color: var(--primary-color);
-    height: 50px;
+    height: 100px;
   }
   
   .nav-links {
@@ -59,8 +59,15 @@ body {
    flex-direction: row;
 
   }
-  .titel image{
-    background-image:url(../image/fitfood.webp) ;
-    height: 100px;
-    width: 100px;
-  }
+ /* .bod{
+  background-image: url(../image/bag.jpg);
+  background-size: 100%;
+  height: 900px;
+background-repeat: no-repeat;
+ } */
+
+ .text{
+  height: 200px;
+  width: 200px;
+
+ }
