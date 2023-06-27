@@ -1,0 +1,607 @@
+{
+    "recipes": [
+      {
+        "name": "Grilled Salmon with Asparagus",
+        "calories": 350,
+        "ingredients": [
+          "Salmon fillet, ",
+          "Asparagus spears, ",
+          "Olive oil, ",
+          "Salt, ",
+          "Pepper, ",
+          "Lemon slices."
+        ],
+        "photo":"https://foodandsun.com/wp-content/uploads/2020/06/Simple-Grilled-Salmon-with-Asparagus.jpg"
+      },
+      {
+        "name": "Quinoa Salad with Roasted Vegetables",
+        "calories": 250,
+        "ingredients": [
+          "Quinoa, ",
+          "Bell peppers, ",
+          "Zucchini, ",
+          "Red onion, ",
+          "Cherry tomatoes, ",
+          "Olive oil, ",
+          "Lemon juice, ",
+          "Salt, ",
+          "Pepper, "
+        ],
+        "photo": "https://dudethatcookz.com/wp-content/uploads/2020/11/quinoa_roasted_veggies_5-scaled.jpg"
+      },
+      {
+        "name": "Chicken and Broccoli Stir-Fry",
+        "calories": 300,
+        "ingredients": [
+          "Chicken breast, ",
+          "Broccoli florets, ",
+          "Garlic, ",
+          "Ginger, ",
+          "Soy sauce, ",
+          "Honey, ",
+          "Sesame oil, ",
+          "Cornstarch, ",
+          "Salt, ",
+          "Pepper."
+        ],
+        "photo": "https://foodnetwork-assets.s3.eu-west-2.amazonaws.com/production/media/12904/responsive-images/foodnetwork-image-45f2a893-2a70-45af-b6d4-14b8782f36b6___default_616_462.jpg"
+      },
+      {
+        "name": "Greek Salad with Grilled Chicken",
+        "calories": 400,
+        "ingredients": [
+          "Grilled chicken breast, ",
+          "Romaine lettuce, ",
+          "Cucumber, ",
+          "Tomatoes, ",
+          "Red onion, ",
+          "Kalamata olives, ",
+          "Feta cheese, ",
+          "Olive oil, ",
+          "Red wine vinegar, ",
+          "Dried oregano, ",
+          "Salt, ",
+          "Pepper."
+        ],
+        "photo": "https://cdn-aboak.nitrocdn.com/QJsLnWfsWAiuukSIMowyVEHtotvSQZoR/assets/images/optimized/rev-f6d083e/sites/default/files/styles/featured_750/public/recipe_images/grilled-chicken-Greek-salad.jpg"
+      },
+      {
+        "name": "Vegetable Curry with Brown Rice",
+        "calories": 320,
+        "ingredients": [
+          "Mixed vegetables (carrots, peas, bell peppers, etc.), ",
+          "Onion, ",
+          "Garlic, ",
+          "Ginger, ",
+          "Curry powder, ",
+          "Coconut milk, ",
+          "Vegetable broth, ",
+          "Brown rice, ",
+          "Cilantro, ",
+          "Salt, ",
+          "Pepper."
+        ],
+        "photo": "https://www.parsleyvegan.com/wp-content/uploads/2017/10/green-curry-salad-17.jpg"
+      },
+      {
+        "name": "Baked Cod with Lemon and Herbs",
+        "calories": 220,
+        "ingredients": [
+          "Cod fillet, ",
+          "Lemon, ",
+          "Fresh herbs (such as parsley and dill), ",
+          "Garlic, ",
+          "Olive oil, ",
+          "Salt,",
+          "Pepper."
+        ],
+        "photo": "https://www.wholesomeyum.com/wp-content/uploads/2020/03/wholesomeyum-Lemon-Baked-Cod-Fish-Recipe-20.jpg"
+      },
+      {
+        "name": "Spinach and Mushroom Omelette",
+        "calories": 180,
+        "ingredients": [
+          "Eggs,  ",
+          "Spinach, ",
+          "Mushrooms, ",
+          "Onion, ",
+          "Garlic, ",
+          "Olive oil, ",
+          "Salt, ",
+          "Pepper."
+        ],
+        "photo": "https://static.onecms.io/wp-content/uploads/sites/19/2015/03/23/mushroom-spinach-omelet-ck.jpg"
+      },
+      {
+        "name": "Turkey Chili with Beans",
+        "calories": 280,
+        "ingredients": [
+          "Ground turkey, ",
+          "Onion, ",
+          "Bell peppers, ",
+          "Garlic, ",
+          "Chili powder, ",
+          "Cumin, ",
+          "Tomato sauce, ",
+          "Kidney beans, ",
+          "Salt, ",
+          "Pepper."
+        ],
+        "photo": "https://www.smalltownwoman.com/wp-content/uploads/2020/10/Turkey-Chili-DSC_1307-Recipe-Card.jpg"
+      },
+      {
+        "name": "Roasted Chicken Breast with Sweet Potatoes",
+        "calories": 380,
+        "ingredients": [
+          "Chicken breast, ",
+          "Sweet potatoes, ",
+          "Olive oil, ",
+          "Garlic powder, ",
+          "Paprika, ",
+          "Dried thyme, ",
+          "Salt, ",
+          "Pepper."
+        ],
+        "photo": "https://www.eatingwell.com/thmb/H7qUjbxEyFczMktMIKB4J0b7P_Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/72229-bbec42f0d1aa4f71abe4dab760bf670a.jpg"
+      },
+      {
+        "name": "Quinoa Stuffed Bell Peppers",
+        "calories": 240,
+        "ingredients": [
+          "Bell peppers, ",
+          "Quinoa, ",
+          "Black beans, ",
+          "Corn kernels, ",
+          "Onion, ",
+          "Garlic, ",
+          "Tomato sauce, ",
+          "Cumin, ",
+          "Chili powder, ",
+          "Salt, ",
+          "Pepper, ",
+          "Cheese (optional)."
+        ],
+        "photo": "https://veganheaven.org/wp-content/uploads/2017/11/Quinoa-Stuffed-Bell-Peppers-in-the-Slow-Cooker-1.jpg"
+      },
+      {
+        "name": "Zucchini Noodles with Pesto",
+        "calories": 200,
+        "ingredients": [
+          "Zucchini, ",
+          "Basil leaves, ",
+          "Pine nuts, ",
+          "Garlic, ",
+          "Parmesan cheese, ",
+          "Lemon juice, ",
+          "Olive oil, ",
+          "Salt, ",
+          "Pepper."
+        ],
+        "photo": "https://www.eatingwell.com/thmb/L7-wBx0puzOiO8F-k6FoWxrdq1Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5528725-0a8046e2f56446e9b9b946161d74454c.jpg"
+      },
+      {
+        "name": "Tofu and Vegetable Stir-Fry",
+        "calories": 280,
+        "ingredients": [
+          "Tofu, ",
+          "Broccoli florets, ",
+          "Bell peppers, ",
+          "Carrots, ",
+          "Snap peas, ",
+          "Onion, ",
+          "Garlic, ",
+          "Ginger, ",
+          "Soy sauce, ",
+          "Sesame oil, ",
+          "Cornstarch,",
+          "Salt, ",
+          "Pepper."
+        ],
+        "photo": "https://www.funfoodfrolic.com/wp-content/uploads/2020/03/Tofu-Stir-Fry-Thumbnail.jpg"
+      },
+      {
+        "name": "Salmon and Avocado Salad",
+        "calories": 320,
+        "ingredients": [
+          "Salmon fillet, ",
+          "Mixed greens, ",
+          "Avocado, ",
+          "Cherry tomatoes, ",
+          "Red onion, ",
+          "Cucumber, ",
+          "Lemon juice, ",
+          "Olive oil, ",
+          "Salt, ",
+          "Pepper."
+        ],
+        "photo": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2020/07/Salmon-Avocado-Salad-5-1.jpg"
+      },
+      {
+        "name": "Mediterranean Quinoa Bowl",
+        "calories": 350,
+        "ingredients": [
+          "Quinoa, ",
+          "Chickpeas, ",
+          "Cucumber, ",
+          "Tomatoes, ",
+          "Kalamata olives, ",
+          "Red onion, ",
+          "Feta cheese, ",
+          "Lemon juice, ",
+          "Olive oil, ",
+          "Dried oregano, ",
+          "Salt, ",
+          "Pepper."
+        ],
+        "photo": "https://pinchofyum.com/wp-content/uploads/Mediterranean-Bowl-Recipe.jpg"
+      },
+      {
+        "name": "Chicken Lettuce Wraps",
+        "calories": 290,
+        "ingredients": [
+          "Ground chicken, ",
+          "Lettuce leaves, ",
+          "Carrots, ",
+          "Water chestnuts, ",
+          "Scallions, ",
+          "Garlic, ",
+          "Ginger, ",
+          "Soy sauce, ",
+          "Hoisin sauce, ",
+          "Rice vinegar, ",
+          "Sesame oil, ",
+          "Salt, ",
+          "Pepper."
+        ],
+        "photo": "https://joyfoodsunshine.com/wp-content/uploads/2016/02/asian-chicken-lettuce-wraps-2-e1564869964220.jpg"
+      },
+      {
+        "name": "Veggie Frittata",
+        "calories": 220,
+        "ingredients": [
+          "Eggs, ",
+          "Bell peppers, ",
+          "Zucchini, ",
+          "Spinach, ",
+          "Onion, ",
+          "Garlic, ",
+          "Olive oil, ",
+          "Salt, ",
+          "Pepper."
+        ],
+        "photo": "https://static.onecms.io/wp-content/uploads/sites/19/2013/02/14/MR_Vegetable-Fritatta177.jpg"
+      },
+      {
+        "name": "Black Bean and Corn Salad",
+        "calories": 180,
+        "ingredients": [
+          "Black beans, ",
+          "Corn kernels, ",
+          "Bell peppers, ",
+          "Red onion, ",
+          "Cilantro, ",
+          "Lime juice, ",
+          "Olive oil, ",
+          "Cumin, ",
+          "Salt, ",
+          "Pepper."
+        ],
+        "photo": "https://www.bowlofdelicious.com/wp-content/uploads/2014/06/Black-Bean-and-Corn-Salad-square.jpg"
+      },
+      {
+        "name": "Grilled Shrimp Skewers with Veggies",
+        "calories": 250,
+        "ingredients": [
+          "Shrimp, ",
+          "Bell peppers, ",
+          "Zucchini, ",
+          "Red onion, ",
+          "Cherry tomatoes, ",
+          "Olive oil, ",
+          "Garlic, ",
+          "Lemon juice, ",
+          "Salt, ",
+          "Pepper."
+        ],
+        "photo": "https://foolproofliving.com/wp-content/uploads/2021/08/Grilled-Shrimp-Kabobs-with-Vegetables-recipe-image.jpg"
+      },
+      {
+        "name": "Turkey Meatballs with Marinara Sauce",
+        "calories": 290,
+        "ingredients": [
+          "Ground turkey, ",
+          "Breadcrumbs, ",
+          "Parmesan cheese, ",
+          "Egg, ",
+          "Garlic, ",
+          "Parsley, ",
+          "Marinara sauce, ",
+          "Salt, ",
+          "Pepper."
+        ],
+        "photo": "https://www.jennieo.com/wp-content/uploads/2019/11/image-recipe_turkey-meatballs-and-mashed-potatoes.jpg"
+      },
+      {
+        "name": "Roasted Brussels Sprouts with Balsamic Glaze",
+        "calories": 150,
+        "ingredients": [
+          "Brussels sprouts, ",
+          "Olive oil, ",
+          "Balsamic vinegar, ",
+          "Honey, ",
+          "Salt, ",
+          "Pepper. "
+        ],
+        "photo": "https://keviniscooking.com/wp-content/uploads/2018/12/Roasted-Brussels-Sprouts-square.jpg"
+      },
+      {
+        "name": "Soba Noodle Salad with Peanut Sauce",
+        "calories": 320,
+        "ingredients": [
+          "Soba noodles, ",
+          "Carrots, ",
+          "Cucumber, ",
+          "Red bell pepper, ",
+          "Green onions, ",
+          "Cilantro, ",
+          "Peanut butter, ",
+          "Soy sauce, ",
+          "Rice vinegar, ",
+          "Honey, ",
+          "Ginger, ",
+          "Garlic, ",
+          "Lime juice, ",
+          "Salt, ",
+          "Pepper, "
+        ],
+        "photo": "https://www.gimmesomeoven.com/wp-content/uploads/2020/08/Soba-Noodles-with-Cucumber-and-Peanut-Sauce-Recipe-1.jpg"
+      },
+      {
+        "name": "Stuffed Portobello Mushrooms",
+        "calories": 210,
+        "ingredients": [
+          "Portobello mushrooms, ",
+          "Spinach, ",
+          "Feta cheese, ",
+          "Garlic, ",
+          "Breadcrumbs, ",
+          "Olive oil, ",
+          "Salt, ",
+          "Pepper."
+        ],
+        "photo": "https://www.jocooks.com/wp-content/uploads/2012/05/stuffed-portobello-mushrooms-1-16.jpg"
+      },
+      {
+        "name": "Cauliflower Fried Rice",
+        "calories": 230,
+        "ingredients": [
+          "Cauliflower, ",
+          "Carrots, ",
+          "Peas, ",
+          "Bell peppers, ",
+          "Onion, ",
+          "Garlic, ",
+          "Ginger, ",
+          "Eggs, ",
+          "Soy sauce, ",
+          "Sesame oil, ",
+          "Salt, ",
+          "Pepper."
+        ],
+        "photo": "https://pinchofyum.com/wp-content/uploads/Cauliflower-Fried-Rice-Recipe.jpg"
+      },
+      {
+        "name": "Lentil Soup with Vegetables",
+        "calories": 200,
+        "ingredients": [
+          "Lentils, ",
+          "Carrots, ",
+          "Celery, ",
+          "Onion, ",
+          "Garlic, ",
+          "Vegetable broth, ",
+          "Tomato paste, ",
+          "Bay leaf, ",
+          "Cumin, ",
+          "Paprika, ",
+          "Salt, ",
+          "Pepper"
+        ],
+        "photo": "https://www.cookingclassy.com/wp-content/uploads/2017/01/lentil-soup-2.jpg"
+      },
+      {
+        "name": "Baked Chicken Thighs with Roasted Vegetables",
+        "calories": 360,
+        "ingredients": [
+          "Chicken thighs, ",
+          "Sweet potatoes, ",
+          "Broccoli florets, ",
+          "Red onion, ",
+          "Olive oil, ",
+          "Garlic powder, ",
+          "Paprika, ",
+          "Dried thyme, ",
+          "Salt, ",
+          "Pepper "
+        ],
+        "photo": "https://cdn.mos.cms.futurecdn.net/avLt3TYdTN3Vgch3JqhBuh.jpg"
+      },
+      {
+        "name": "Caprese Salad",
+        "calories": 180,
+        "ingredients": [
+          "Tomatoes, ",
+          "Fresh mozzarella, ",
+          "Basil leaves, ",
+          "Olive oil, ",
+          "Balsamic glaze, ",
+          "Salt, ",
+          "Pepper "
+        ],
+        "photo": "data:image/jpeg;base64,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"
+      },
+      {
+        "name": "Spaghetti Squash with Marinara Sauce",
+        "calories": 250,
+        "ingredients": [
+          "Spaghetti squash, ",
+          "Marinara sauce, ",
+          "Olive oil, ",
+          "Garlic, ",
+          "Basil leaves, ",
+          "Parmesan cheese, ",
+          "Salt, ",
+          "Pepper "
+        ],
+        "photo": "https://sparkpeo.hs.llnwd.net/e2/guid/Spaghetti-Squash-Marinara-/5ecc8c66-7ccc-4108-a5d7-def45d32bc57.jpg"
+      },
+      {
+        "name": "Tuna Salad Lettuce Wraps",
+        "calories": 210,
+        "ingredients": [
+          "Canned tuna, ",
+          "Greek yogurt, ",
+          "Celery, ",
+          "Red onion, ",
+          "Lemon juice, ",
+          "Dill, ",
+          "Sal , ",
+          "Pepper, ",
+          "Lettuce leaves "
+        ],
+        "photo": "https://cookathomemom.com/wp-content/uploads/2020/03/Spicy-Habanero-Tuna-Salad-Lettuce-Wraps-Whole30.jpg"
+      },
+      {
+        "name": "Sweet Potato and Black Bean Tacos",
+        "calories": 280,
+        "ingredients": [
+          "Sweet potatoes, ",
+          "Black beans, ",
+          "Red onion, ",
+          "Bell peppers, ",
+          "Garlic, ",
+          "Cumin, ",
+          "Chili powder, ",
+          "Lime juice,",
+          "Cilantro, ",
+          "Tortillas, ",
+          "Salt, ",
+          "Pepper "
+        ],
+        "photo": "https://www.simplyrecipes.com/thmb/BLYYqIQu7_WOk3a17MiHBkaqYEU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2016__10__sweet-potato-black-bean-tacos-horiz-a-1600-2d713550f6b3461eac27c915bf75a9cb.jpg"
+      },{
+        "name": "Grilled Salmon with Asparagus",
+        "calories": 350,
+        "ingredients": [
+          "Salmon fillet, ",
+          "Asparagus spears, ",
+          "Olive oil, ",
+          "Salt, ",
+          "Pepper, ",
+          "Lemon slices."
+        ],
+        "photo":"https://foodandsun.com/wp-content/uploads/2020/06/Simple-Grilled-Salmon-with-Asparagus.jpg"
+      },
+      {
+        "name": "Quinoa Salad with Roasted Vegetables",
+        "calories": 250,
+        "ingredients": [
+          "Quinoa, ",
+          "Bell peppers, ",
+          "Zucchini, ",
+          "Red onion, ",
+          "Cherry tomatoes, ",
+          "Olive oil, ",
+          "Lemon juice, ",
+          "Salt, ",
+          "Pepper, "
+        ],
+        "photo": "https://dudethatcookz.com/wp-content/uploads/2020/11/quinoa_roasted_veggies_5-scaled.jpg"
+      },
+      {
+        "name": "Chicken and Broccoli Stir-Fry",
+        "calories": 300,
+        "ingredients": [
+          "Chicken breast, ",
+          "Broccoli florets, ",
+          "Garlic, ",
+          "Ginger, ",
+          "Soy sauce, ",
+          "Honey, ",
+          "Sesame oil, ",
+          "Cornstarch, ",
+          "Salt, ",
+          "Pepper."
+        ],
+        "photo": "https://foodnetwork-assets.s3.eu-west-2.amazonaws.com/production/media/12904/responsive-images/foodnetwork-image-45f2a893-2a70-45af-b6d4-14b8782f36b6___default_616_462.jpg"
+      },
+      {
+        "name": "Greek Salad with Grilled Chicken",
+        "calories": 400,
+        "ingredients": [
+          "Grilled chicken breast, ",
+          "Romaine lettuce, ",
+          "Cucumber, ",
+          "Tomatoes, ",
+          "Red onion, ",
+          "Kalamata olives, ",
+          "Feta cheese, ",
+          "Olive oil, ",
+          "Red wine vinegar, ",
+          "Dried oregano, ",
+          "Salt, ",
+          "Pepper."
+        ],
+        "photo": "https://cdn-aboak.nitrocdn.com/QJsLnWfsWAiuukSIMowyVEHtotvSQZoR/assets/images/optimized/rev-f6d083e/sites/default/files/styles/featured_750/public/recipe_images/grilled-chicken-Greek-salad.jpg"
+      },
+      {
+        "name": "Vegetable Curry with Brown Rice",
+        "calories": 320,
+        "ingredients": [
+          "Mixed vegetables (carrots, peas, bell peppers, etc.), ",
+          "Onion, ",
+          "Garlic, ",
+          "Ginger, ",
+          "Curry powder, ",
+          "Coconut milk, ",
+          "Vegetable broth, ",
+          "Brown rice, ",
+          "Cilantro, ",
+          "Salt, ",
+          "Pepper."
+        ],
+        "photo": "https://www.parsleyvegan.com/wp-content/uploads/2017/10/green-curry-salad-17.jpg"
+      }, {
+        "name": "Spaghetti Squash with Marinara Sauce",
+        "calories": 250,
+        "ingredients": [
+          "Spaghetti squash, ",
+          "Marinara sauce, ",
+          "Olive oil, ",
+          "Garlic, ",
+          "Basil leaves, ",
+          "Parmesan cheese, ",
+          "Salt, ",
+          "Pepper "
+        ],
+        "photo": "https://sparkpeo.hs.llnwd.net/e2/guid/Spaghetti-Squash-Marinara-/5ecc8c66-7ccc-4108-a5d7-def45d32bc57.jpg"
+      },
+      {
+        "name": "Tuna Salad Lettuce Wraps",
+        "calories": 210,
+        "ingredients": [
+          "Canned tuna, ",
+          "Greek yogurt, ",
+          "Celery, ",
+          "Red onion, ",
+          "Lemon juice, ",
+          "Dill, ",
+          "Sal , ",
+          "Pepper, ",
+          "Lettuce leaves "
+        ],
+        "photo": "https://cookathomemom.com/wp-content/uploads/2020/03/Spicy-Habanero-Tuna-Salad-Lettuce-Wraps-Whole30.jpg"
+      }
+    ]
+  }
+  

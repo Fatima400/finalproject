@@ -29,15 +29,15 @@ export default function Login() {
 
   return (
     <>
-      <Card>
+      <Card className="">
         <Card.Body>
           
-          <h2 className="text-center mb-4">Log In</h2>
+          <h2 className="heading">Log In</h2>
           {error && <Alert variant="danger">{error}</Alert>}
           <Form onSubmit={handleSubmit}>
             <Form.Group>
               <Form.Label htmlFor="email">Email</Form.Label>
-              <Form.Control id="email" type="email" ref={emailRef} required />
+              <Form.Control className="inputContainer"  id="email" type="email" ref={emailRef} required />
             </Form.Group>
             <Form.Group>
               <Form.Label htmlFor="password">Password</Form.Label>
@@ -48,16 +48,16 @@ export default function Login() {
                 required
               />
             </Form.Group>
-            <Button disabled={loading} className="w-100 mt-3" type="submit">
+            <Button disabled={loading} className="sub" type="submit">
               Log In
             </Button>
           </Form>
-          <div className="w-100 text-center mt-3">
+          <div className="pass">
             <Link to="/forgot-password">Forgot Password?</Link>
           </div>
         </Card.Body>
       </Card>
-      <div className="w-100 text-center mt-2">
+      <div className="up">
         Need an account? <Link to="/signup">Sign Up</Link>
       </div>
     </>

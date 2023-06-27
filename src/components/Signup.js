@@ -33,7 +33,7 @@ export default function Signup() {
     <>
       <Card>
         <Card.Body>
-          <h2 className="text-center mb-4">Sign Up</h2>
+          <h2 className="up">Sign Up</h2>
           {error && <Alert variant="danger">{error}</Alert>}
           <Form onSubmit={handleSubmit}>
             <Form.Group>
@@ -60,13 +60,13 @@ export default function Signup() {
                 required
               />
             </Form.Group>
-            <Button disabled={loading} className="w-100 mt-3" type="submit">
+            <Button disabled={loading} className="sub" type="submit">
               Sign Up
             </Button>
           </Form>
         </Card.Body>
       </Card>
-      <div className="w-100 text-center mt-2">
+      <div className="log">
         Already have an account? <Link to="/login">Log In</Link>
       </div>
     </>
