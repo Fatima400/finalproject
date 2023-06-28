@@ -22,18 +22,18 @@ import Footer from './Footer';
 const LandingPage = () => {
   return (
     <>
-
-      <nav className="nav">
-        <div className="nav-logo">
-          <img src={Logo} alt="Logo" className="logoname" />
-        </div>
-        <ul className="nav-links">
-          <li className="nav-link" >How it work</li>
-          <li className="nav-link">Service</li>
-          <li className="nav-link">About</li>
-        </ul>
-      </nav>
-
+    <nav className="nav">
+      <div className="nav-logo">
+        <img src={Logo} alt="Logo" className="logoname" />
+      </div>
+      <ul className="nav-links">
+        <li className="nav-link">How it works</li>
+        <li className="nav-link">Services</li>
+        <li className="nav-link">
+          <Link className="llink" to="/Login">Login</Link>
+        </li>
+      </ul>
+    </nav>
 
       <div className='header'>
         <div className='continer'>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 // import { Card, Alert, Button } from "react-bootstrap";
 // import { useAuth } from "../context/AuthContext";
-// import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 // import Bmr from "./Bmr";
 // import Datum from "./Datum"
 import HamburgerMenu from './HamburgerMenu';
@@ -39,7 +39,11 @@ export default function Dashboard() {
 
       {/* <BMI/> */}
       
- 
+      <Link to="/Profile">
+
+<button >Start</button>
+
+</Link>
     <Footer/>
     </>
   );
