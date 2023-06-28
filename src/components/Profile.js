@@ -6,7 +6,7 @@ import HamburgerMeun from "./HamburgerMenu";
 import BMI from "./BMI";
 import Indax from '../image/Index.jpg'
 import "./Profile.css"
-import UserProfileForm from './User';
+// import Users from './Users';
 
 import Footer from './Footer';
 
@@ -29,7 +29,7 @@ export default function Profile() {
   return (
     <>
       <HamburgerMeun />
-
+    
 
       <div>
     
@@ -68,7 +68,7 @@ export default function Profile() {
 
       <Link to="/Recipes">
 
-        <button >get your dietplanning</button>
+        <button className="butt">get your dietplanning</button>
 
       </Link>
       <Footer />

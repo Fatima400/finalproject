@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
-import "./BMI.css"
+import { useCookies } from 'react-cookie';
+
+import './BMI.css';
+
 const Calculator = () => {
   const [weight, setWeight] = useState('');
   const [height, setHeight] = useState('');
@@ -38,12 +41,31 @@ const Calculator = () => {
 
   const calculateBMR = () => {
     if (weight && height && age) {
+      const parsedWeight = parseInt(weight);
+      const parsedHeight = parseInt(height);
+      const parsedAge = parseInt(age);
+
+      if (parsedWeight < 40 || parsedWeight > 300) {
+        console.log('Weight must be between 40 and 300');
+        return;
+      }
+
+      if (parsedHeight < 130 || parsedHeight > 230) {
+        console.log('Height must be between 130 and 230');
+        return;
+      }
+
+      if (parsedAge < 18 || parsedAge > 140) {
+        console.log('Age must be between 18 and 140');
+        return;
+      }
+
       let bmrValue = 0;
 
       if (gender === 'male') {
-        bmrValue = 10 * weight + 6.25 * height - 5 * age + 5;
+        bmrValue = 10 * parsedWeight + 6.25 * parsedHeight - 5 * parsedAge + 5;
       } else if (gender === 'female') {
-        bmrValue = 10 * weight + 6.25 * height - 5 * age - 161;
+        bmrValue = 10 * parsedWeight + 6.25 * parsedHeight - 5 * parsedAge - 161;
       }
 
       switch (activityLevel) {
@@ -77,7 +99,7 @@ const Calculator = () => {
 
   return (
     <div>
-      <h2>BMI & BMR Calculator</h2>
+      <h2 className='butt'>BMI & BMR Calculator</h2>
       <div>
         <label htmlFor="weight">Weight (kg):</label>
         <input
@@ -130,18 +152,18 @@ const Calculator = () => {
           <option value="extraActive">Extra Active</option>
         </select>
       </div>
-      <button onClick={handleCalculateClick}>Calculate</button>
+      <button  className='butt'onClick={handleCalculateClick}>Calculate</button>
 
       {bmi && (
-        <div >
-          <p  className='resu'>
+        <div>
+          <p className="resu">
             {message}
             {bmi}
           </p>
         </div>
       )}
 
-      {bmr && <p className='resu'>BMR: {bmr}</p>}
+      {bmr && <p className="resu">BMR: {bmr}</p>}
     </div>
   );
 };

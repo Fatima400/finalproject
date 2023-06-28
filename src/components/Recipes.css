@@ -25,11 +25,26 @@
     width: 180px;
     border-radius: 10px;
   }
+  .butt{
+    padding: 10px 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
   .book {
     position: relative;
     border-radius: 10px;
-    width: 220px;
-    height: 300px;
+    width: 280px;
+    height: 400px;
     background-color: whitesmoke;
     -webkit-box-shadow: 1px 1px 12px #000;
     box-shadow: 1px 1px 12px #000;
@@ -48,6 +63,9 @@
     -ms-flex-pack: center;
     justify-content: center;
     color: #000;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
     
   
   }
@@ -62,7 +80,7 @@
     border-radius: 10px;
     cursor: pointer;
     -webkit-transition: all 0.5s;
-    transition: all 0.5s;
+    transition: all 2.9s;
     -webkit-transform-origin: 0;
     -ms-transform-origin: 0;
     transform-origin: 0;
@@ -96,6 +114,7 @@
     text-align: center;
   
     padding-top: 10px;
+
   }
 
  .ing {
@@ -107,6 +126,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap:100px;
   margin-top: 50px;
+justify-content: space-between;
+margin: 10px 20px;
 }
