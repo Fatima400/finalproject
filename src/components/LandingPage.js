@@ -116,7 +116,7 @@ const LandingPage = () => {
          
           </div>
           <div class="kardp ">
-            <p>The website helps users lead a healthier life by calculating BMI and BMR while providing a collection of healthy recipes. Users can calculate their BMI to understand their weight status and estimate their BMR to determine daily caloric needs. They can also explore and choose from a variety of nutritious recipes with detailed nutritional information. The website aims to empower users to make informed choices for improved health and wellness.</p>
+            <p class="kardp ">The website helps users lead a healthier life by calculating BMI and BMR while providing a collection of healthy recipes. Users can calculate their BMI to understand their weight status and estimate their BMR to determine daily caloric needs. They can also explore and choose from a variety of nutritious recipes with detailed nutritional information. The website aims to empower users to make informed choices for improved health and wellness.</p>
           </div>
          
        

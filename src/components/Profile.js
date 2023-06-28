@@ -6,8 +6,10 @@ import HamburgerMeun from "./HamburgerMenu";
 import BMI from "./BMI";
 import Indax from '../image/Index.jpg'
 import "./Profile.css"
+import UserProfileForm from './User';
 
 import Footer from './Footer';
+
 
 
 export default function Profile() {
@@ -27,6 +29,11 @@ export default function Profile() {
   return (
     <>
       <HamburgerMeun />
+
+
+      <div>
+    
+    </div>
       <br />
       <br />
       <br />

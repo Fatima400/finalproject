@@ -247,7 +247,8 @@ button:active {
  .kardp{
     height: 400px;
     width: 400px;
-    margin-top: 50px;
+    /* margin-top: p; */
     font-size: 17px;
     line-height: 2;
+    text-align: justify;
  }
