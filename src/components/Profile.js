@@ -4,9 +4,10 @@ import { useAuth } from "../context/AuthContext";
 import { Link, useNavigate } from "react-router-dom";
 import HamburgerMeun from "./HamburgerMenu";
 import BMI from "./BMI";
-import Indax from '../image/Index.jpg'
-import "./Profile.css"
-// import Users from './Users';
+import Indax from '../image/Index.jpg';
+import "./Profile.css";
+import UserDataForm from './UserDataForm';
+import UserProfile from './UserProfile';
 
 import Footer from './Footer';
 
@@ -30,7 +31,8 @@ export default function Profile() {
     <>
       <HamburgerMeun />
     
-
+      <UserDataForm/>
+      <UserProfile />
       <div>
     
     </div>
@@ -68,10 +70,10 @@ export default function Profile() {
 
       <Link to="/Recipes">
 
-        <button className="butt">get your dietplanning</button>
+        <button className="butt<">get your dietplanning</button>
 
       </Link>
       <Footer />
     </>
   );
-}
+};
