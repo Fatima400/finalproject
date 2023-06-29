@@ -27,7 +27,7 @@ const LandingPage = () => {
         <img src={Logo} alt="Logo" className="logoname" />
       </div>
       <ul className="nav-links">
-        <li className="nav-link">How it works</li>
+        <li className="nav-link" >How it works</li>
         <li className="nav-link">Services</li>
         <li className="nav-link">
           <Link className="llink" to="/Login">Login</Link>

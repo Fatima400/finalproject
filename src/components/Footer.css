@@ -64,9 +64,14 @@ body {
       color:rgb(175, 175, 179);
       text-decoration: none;
     }
-    .socialmedia{
+    .socialmedia p{
       display: flex;
       flex-direction: row;
+      /* margin-right: 60px!important; */
+      gap:10px;
+      margin-left: -20px;
+
+     
     }
     .socialmedia img{
       width:
@@ -109,6 +114,7 @@ body {
       line-height: 15px;
       color :white;
       font-weight: 600;
+      height: 100px;
     }
     @media screen and (max-width:850px)
     { .sb_footer_heading h1{

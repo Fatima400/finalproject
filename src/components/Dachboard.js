@@ -41,7 +41,7 @@ export default function Dashboard() {
       
       <Link to="/Profile">
 
-<button >Start</button>
+<button className='start'>Start</button>
 
 </Link>
     <Footer/>
