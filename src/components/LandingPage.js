@@ -58,17 +58,26 @@ const LandingPage = () => {
 
 
           <div className="socialmedia">
-
-            <img src={fb} alt="facebook_profile"></img>
-
-
-            <img src={twitter} alt="facebook_profile"></img>
-
-
-            <img src={Linkedin} alt="facebook_profile"></img>
-
-
-            <img src={Instgram} alt="facebook_profile"></img>
+          <p>
+                <a href="https://www.facebook.com/profile.php?id=100023563097762">
+                  <img src={fb} alt="facebook_profile" />
+                </a>
+              </p>
+              <p>
+                <a href="https://twitter.com/your-twitter-profile">
+                  <img src={twitter} alt="twitter_profile" />
+                </a>
+              </p>
+              <p>
+                <a href="https://www.linkedin.com/in/fatima-khalil/">
+                  <img src={Linkedin} alt="linkedin_profile" />
+                  </a>
+              </p>
+              <p>
+                <a href="https://www.instagram.com/fkhalil440/">
+                  <img src={Instgram} alt="instagram_profile" />  
+                  </a>
+              </p>
 
           </div>
 

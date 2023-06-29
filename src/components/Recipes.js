@@ -10,7 +10,15 @@ const RecipeComponent = () => {
   const [selectedRecipes, setSelectedRecipes] = useState([]);
   const [totalCalories, setTotalCalories] = useState(0);
   const userBMR = 1800; // Example BMR value
+  const [bmiValue, setBMIValue] = useState(null);
 
+  useEffect(() => {
+    const savedBMR = localStorage.getItem('bmrValue');
+    if (savedBMR) {
+      setBMIValue(savedBMR);
+    }
+  }, []);
+  
   useEffect(() => {
     fetch('./recipe.json')
       .then((res) => res.json())
@@ -38,14 +46,14 @@ const RecipeComponent = () => {
   return (
     <>
       <HamburgerMeun />
-      <p className="butt">Total Calories: {totalCalories}</p>
-      <p className="butt">Calorie Difference: {userBMR - totalCalories}</p>
+      <p className="call">Total Calories: {totalCalories}</p>
+      <p className="call">Calorie Difference: {bmiValue - totalCalories}</p>
       <div className="con">
         {recipes.map((recipe, index) => (
           <div key={index} className="book">
             <p className="ing">{recipe.ingredients}</p>
-            <button onClick={() => selectRecipe(recipe)}>Add to Basket</button>
-              <button onClick={() => removeRecipe(recipe)}>Remove from Basket</button>
+            <button className="cll" onClick={() => selectRecipe(recipe)}>Add to Basket</button>
+              <button className="cll" onClick={() => removeRecipe(recipe)}>Remove from Basket</button>
             <div className="cover">
               <img src={recipe.photo} alt={recipe.name} className="imgg" />
               <p>{recipe.name}</p>

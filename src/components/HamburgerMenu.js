@@ -39,7 +39,7 @@ function BasicExample() {
           <Nav.Link className="nave" href="/Dachboard">Home</Nav.Link>
             <Nav.Link className="nave" href="/Profile">Profile</Nav.Link>
             <Nav.Link className="nave" href="/Recipes">Recipes</Nav.Link>
-            <Nav.Link className="nave" href="/UploadProfile">Update Profile</Nav.Link>
+            <Nav.Link className="nave" href="/update-profile">Update Profile</Nav.Link>
             <Nav.Link  className="nave" onClick={handleLogout} >Logout</Nav.Link>
 
 

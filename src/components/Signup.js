@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { useAuth } from "../context/AuthContext";
 import { Link, useNavigate } from "react-router-dom";
 import './Signup.css'
@@ -13,6 +13,7 @@ export default function Signup() {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
+  
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -63,7 +64,7 @@ export default function Signup() {
               className="passs"
             />
           </div>
-          <button disabled={loading} type="submit">
+          <button disabled={loading} type="submit" className="sub" >
             Sign Up
           </button>
         </form>
