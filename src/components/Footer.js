@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
           <div className="sb_footer_links_div">
             <h4>Social Media:</h4>
-            <div className="socialmedia">
+            <div className="socialmediaa">
               <p>
                 <a href="https://www.facebook.com/profile.php?id=100023563097762">
                   <img src={fb} alt="facebook_profile" />

@@ -59,7 +59,7 @@ const RecipeComponent = () => {
     <>
       <HamburgerMeun />
       <p className="call">Total Calories: {totalCalories}</p>
-      <p className="call">Calorie Difference: {calorieDifference}</p>
+      <p className="call">Calorie Difference: {calorieDifference.toFixed(2)}</p>
       <p  className='textm' style={{ color: messageColor }}>{message}</p>
       <div className="con">
         {recipes.map((recipe, index) => (

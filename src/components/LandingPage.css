@@ -113,7 +113,6 @@ p {
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
-
 }
 
 button:hover {
@@ -136,7 +135,7 @@ button:active {
 .socialmedia {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 16px;
     margin-left: 20px;
 
 }

@@ -64,7 +64,7 @@ body {
       color:rgb(175, 175, 179);
       text-decoration: none;
     }
-    .socialmedia p{
+    .socialmediaa {
       display: flex;
       flex-direction: row;
       /* margin-right: 60px!important; */
@@ -73,7 +73,7 @@ body {
 
      
     }
-    .socialmedia img{
+    .socialmediaa img{
       width:
       80%
     }
