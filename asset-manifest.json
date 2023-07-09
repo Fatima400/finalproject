@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.28d35b6b.css",
+    "main.js": "/static/js/main.73b5ea2f.js",
+    "static/media/bmi.jpg": "/static/media/bmi.4118fb35945eb8eb165f.jpg",
+    "static/media/woman.jpg": "/static/media/woman.e826957447f23bda496d.jpg",
+    "static/media/nutritionist_4.jpg": "/static/media/nutritionist_4.c1b37c1f20aa82c22ea7.jpg",
+    "static/media/BmiLogo.png": "/static/media/BmiLogo.6406f01565f3b49e6b66.png",
+    "static/media/maslo.jpg": "/static/media/maslo.58a636ec72b2b8553978.jpg",
+    "static/media/healthylife.jpg": "/static/media/healthylife.3e7f2a06bca0d45ca843.jpg",
+    "static/media/Logo.png": "/static/media/Logo.ddb5cbbff83163726fc0.png",
+    "static/media/diet-planning.svg": "/static/media/diet-planning.14c4cc5fd7a6eb65e476a8aa77890c02.svg",
+    "static/media/Frame.svg": "/static/media/Frame.e156009dd5f6f0b251c7011767d6aaec.svg",
+    "static/media/Logoname.png": "/static/media/Logoname.9e186f0863993a83fdb9.png",
+    "index.html": "/index.html",
+    "main.28d35b6b.css.map": "/static/css/main.28d35b6b.css.map",
+    "main.73b5ea2f.js.map": "/static/js/main.73b5ea2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28d35b6b.css",
+    "static/js/main.73b5ea2f.js"
+  ]
+}
