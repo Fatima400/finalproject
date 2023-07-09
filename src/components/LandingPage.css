@@ -265,4 +265,20 @@ button:active {
       font-size: 16px;
       text-align: center;
     }
+
+    .fotoo{
+
+        height: 300px;
+        width: 300px;
+        align-items: center;
+     }
+
+     .kardp{
+        height: 300px;
+        width: 300px;
+        /* margin-top: p; */
+        font-size: 14px;
+        line-height: 2;
+        text-align: justify;
+     }
  }    
