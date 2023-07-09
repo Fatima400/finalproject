@@ -22,18 +22,18 @@ import Footer from './Footer';
 const LandingPage = () => {
   return (
     <>
-    <nav className="nav">
+    {/* <nav className="nav"> */}
       <div className="nav-logo">
         <img src={Logo} alt="Logo" className="logoname" />
       </div>
-      <ul className="nav-links">
+      {/* <ul className="nav-links">
         <li className="nav-link" >How it works</li>
         <li className="nav-link">Services</li>
         <li className="nav-link">
           <Link className="llink" to="/Login">Login</Link>
         </li>
       </ul>
-    </nav>
+    </nav> */}
 
       <div className='header'>
         <div className='continer'>
@@ -124,7 +124,7 @@ const LandingPage = () => {
             <img className=" fotoo" src={healthylife} alt="Frame" />
          
           </div>
-          <div class="kardp ">
+          <div class="kard">
             <p class="kardp ">The website helps users lead a healthier life by calculating BMI and BMR while providing a collection of healthy recipes. Users can calculate their BMI to understand their weight status and estimate their BMR to determine daily caloric needs. They can also explore and choose from a variety of nutritious recipes with detailed nutritional information. The website aims to empower users to make informed choices for improved health and wellness.</p>
           </div>
          

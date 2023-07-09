@@ -17,13 +17,13 @@ body {
 
 
 
- .nav {
+.nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-bottom: 50px;
     flex-wrap: wrap;
-    gap:250px;
+    gap: 250px;
 
 }
 
@@ -31,7 +31,7 @@ body {
     height: 150px;
     /* margin-left: 10px; */
     width: 150px;
-    
+
 }
 
 .nav-links {
@@ -43,8 +43,9 @@ body {
     margin-top: 20px;
     margin-right: 20px;
     color: var(--primary-color);
-  
-} 
+
+}
+
 .llink {
     /* height: 40px;
     width: 100px;
@@ -66,21 +67,18 @@ body {
 /* 
 element.style {
 } */
-.nav-links li a{
+.nav-links li a {
     height: 80px;
     width: 40px;
-
-}
-.nav-links li a {
     font-size: 30px;
 }
 
-.nav-links li{
+.nav-links li {
     color: #000;
     font-size: 30px;
 }
 
-.logoname{
+.logoname {
     height: 100px;
     width: 250px;
     margin-left: 20px;
@@ -152,21 +150,23 @@ button:active {
 
 
 
- .header {
+.header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap:200px;
+    gap: 200px;
     flex-wrap: wrap;
-    
- }
-.maslo{
+
+}
+
+.maslo {
     height: 400px;
     width: 400px;
 }
-.two{
-    margin-top:100px ;
-    
+
+.two {
+    margin-top: 100px;
+
 }
 
 
@@ -180,23 +180,24 @@ button:active {
 
 .card {
     width: 250px;
-   height: 300px;
+    height: 300px;
     border-radius: 30px;
     background: #FFFFFF;
     box-shadow: 15px 15px 30px #bebebe,
         -15px -15px 30px #ffffff;
     display: flex;
     flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 
     margin-top: 50px;
-    margin-bottom:50px ;
+    margin-bottom: 50px;
 
     padding: 50px;
 }
-.card p{
+
+.card p {
     font-size: 14px;
 }
 
@@ -204,19 +205,23 @@ button:active {
     width: 150px;
     height: 140px;
 }
-.two h1{
-   text-align: center;
+
+.two h1 {
+    text-align: center;
 
 }
-.three{
+
+.three {
     min-height: 500px;
 }
-.three h1{
+
+.three h1 {
     text-align: center;
     margin-top: 50px;
-   
- }
- /* .kards{
+
+}
+
+/* .kards{
     display: flex;
     flex-direction: row;
    justify-content: center;
@@ -224,62 +229,109 @@ button:active {
    flex-wrap: wrap;
     gap:50px
  } */
- .foto{
+.foto {
     height: 100px;
     width: 100px;
- }
+}
 
- .fotoo{
+.fotoo {
 
     height: 400px;
     width: 400px;
- }
+}
 
- .kards{
+.kards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap:50px;
+    gap: 50px;
     justify-content: center;
     margin-top: 80px;
     margin-left: 100px;
- }
+}
 
- .kardp{
-    height: 400px;
-    width: 400px;
+.kardp {
+    max-height: 400px;
+    max-width: 400px;
     /* margin-top: p; */
     font-size: 17px;
     line-height: 2;
     text-align: justify;
- }
- @media (max-width: 767px) {
+}
+
+@media only screen and (max-width: 600px) {
     .nav {
-      /* Styles specific to mobile devices */
-      background-color: #f1f1f1;
-      padding: 10px;
+        /* Styles specific to mobile devices */
+        background-color: #f1f1f1;
+        padding: 10px;
     }
-  
+
     .header {
-      /* Styles specific to mobile devices */
-      font-size: 16px;
-      text-align: center;
+        /* Styles specific to mobile devices */
+        font-size: 16px;
+        text-align: center;
     }
 
-    .fotoo{
+    .fotoo {
 
-        height: 200px;
-        width: 200px;
-        align-items: center;
-     }
+        height: 250px;
+        width: 250px;
+        margin-left: -76px;
+    }
 
-     .kardp{
-        height: 200px;
-        width: 200px;
-        /* margin-top: p; */
+    .kardp {
+        height: 300px;
+        width: 300px;
         font-size: 14px;
-        line-height: 1,5;
+        text-align: center;
+        margin-left: -76px;
         text-align: justify;
+        margin-bottom: 50px;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-around;
         align-items: center;
-     }
- }    
+        padding-bottom: 50px;
+        flex-wrap: wrap;
+
+
+    }
+
+    .nav-links li a {
+        height: 40px;
+        width: 20px;
+        font-size: 18px;
+    }
+
+    .nav-logo img {
+        height: 200px;
+
+        width: 200px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 84px;
+
+    }
+
+    .nav-links {
+
+        display: flex;
+        font-size: 20px;
+        gap: 5px;
+        margin-top: 20px;
+        margin-right: 20px;
+        color: var(--primary-color);
+
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+
+    }
+}

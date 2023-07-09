@@ -107,3 +107,23 @@ background-repeat: no-repeat;
   margin-bottom: 100px;
   
  }
+ @media only screen and (max-width: 600px) {
+  .text{
+    height: 150px;
+    width: 344px;
+    text-align: left;
+    margin-top: 150px;
+   text-align: justify;
+  
+   }
+   .start{
+    width: 369px;
+    margin-top: 20px;
+ }
+.Logoname{
+
+  margin-top: 150px;
+  width: 100px;
+  height: 100px;
+}
+}
