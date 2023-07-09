@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "homepage":"https://github.com/Fatima400/finalproject",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@firebase/storage": "^0.11.2",
