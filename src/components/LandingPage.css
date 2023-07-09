@@ -268,17 +268,18 @@ button:active {
 
     .fotoo{
 
-        height: 250px;
-        width: 250px;
+        height: 200px;
+        width: 200px;
         align-items: center;
      }
 
      .kardp{
-        height: 250px;
-        width: 250px;
+        height: 200px;
+        width: 200px;
         /* margin-top: p; */
         font-size: 14px;
-        line-height: 2;
+        line-height: 1,5;
         text-align: justify;
+        align-items: center;
      }
  }    
