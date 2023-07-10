@@ -259,7 +259,8 @@ button:active {
     text-align: justify;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+
     .nav {
         /* Styles specific to mobile devices */
         background-color: #f1f1f1;
